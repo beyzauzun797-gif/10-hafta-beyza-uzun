@@ -1,0 +1,38 @@
+create table sinif
+go
+use sinif
+go
+
+create table ogrenciler(
+ogrenci_id int primary key,
+ogrenci_adi varchar(20),
+ogrenci_soyadi varchar(20),
+ogrenci_dogumtarih datetime,
+ogrenci_dogum_yeri varchar);
+
+
+create table dersler(
+ders_id int primary key,
+ders_adi varchar(20),
+ders_kredi int);
+
+create table ogretim_uyesi
+
+
+select*from ilçe
+
+ create databse il_ilçeler2;
+go
+use il_ilçeler2;
+go
+
+create table il(
+il_kodu int primary key,
+il_ismi varchar(50),
+);
+
+create table ilçe(
+ilçe_id int primary key,
+ilçe_ismi varchar(30),
+);
+ 
